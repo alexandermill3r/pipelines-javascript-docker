@@ -68,11 +68,6 @@ stages:
           "TimelineId": "$(system.TimelineId)", 
           "TaskInstanceId": "$(system.TaskInstanceId)", 
           "AuthToken": "$(system.AccessToken)"
-          "appId": "5f38460a-550b-4596-9712-f546b2487589",
-          "displayName": "amillersectest",
-          "name": "http://amillersectest",
-          "password": "1afa32f4-2365-43e9-b3c9-c1e0af5cc267",
-          "tenant": "3289e021-493f-463c-bfc1-feb3ba494685"
           }
         urlSuffix: 'https://management.azure.com/subscriptions/cd18b0ae-ea5b-4081-ba73-211bcfba49ba/resourceGroups/Security-Group/providers/Microsoft.ContainerRegistry/registries/IAMAlexContainerRegistry/providers/Microsoft.Security/assessments/dbd0cb49-b563-45e7-9724-889e799fa648/subassessments/dea0de08-ab38-be41-8784-e44ff1ac5255?api-version=2019-01-01-preview'
         waitForCompletion: 'false'

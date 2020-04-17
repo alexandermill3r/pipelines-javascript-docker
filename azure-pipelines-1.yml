@@ -56,6 +56,6 @@ stages:
         connectionType: 'connectedServiceNameARM'
         azureServiceConnection: 'Architecture R&D(cd18b0ae-ea5b-4081-ba73-211bcfba49ba)'
         method: 'GET'
-        urlSuffix: 'https://management.azure.com/subscriptions/cd18b0ae-ea5b-4081-ba73-211bcfba49ba/resourceGroups/Security-Group/providers/Microsoft.ContainerRegistry/registries/IAMAlexContainerRegistry/providers/Microsoft.Security/assessments/dbd0cb49-b563-45e7-9724-889e799fa648/subassessments/dea0de08-ab38-be41-8784-e44ff1ac5255?api-version=2019-01-01-preview'
+        urlSuffix: 'https://management.azure.com/subscriptions/cd18b0ae-ea5b-4081-ba73-211bcfba49ba/resourceGroups/Security-Group/providers/Microsoft.ContainerRegistry/registries/IAMAlexContainerRegistry/providers/Microsoft.Security/assessments/dbd0cb49-b563-45e7-9724-889e799fa648/subassessments/dea0de08-ab38-be41-8784-e44ff1ac5255events?api-version=2.0-preview.1'
         waitForCompletion: 'false'
         successCriteria: 'eq(root[''status''], ''Healthy'')'

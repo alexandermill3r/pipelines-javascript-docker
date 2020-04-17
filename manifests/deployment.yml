@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: alexandermillrpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: alexandermillrpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: alexandermillrpipelinesjavascriptdocker 
+          image: iamalexcontainerregistry.azurecr.io/alexandermillrpipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080

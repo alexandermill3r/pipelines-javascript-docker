@@ -55,10 +55,10 @@ stages:
     steps:
     - task: SonarCloudPrepare@1
       inputs:
-        SonarCloud: 'SonarCloud'
-        organization: 'beelinesonarcloud'
-        scannerMode: 'CLI'
-        configMode: 'manual'
-        cliProjectKey: 'beeline-sonarcloud-testing.almiller'
-        cliSources: '.'
+       SonarCloud: 'SonarCloud'
+       organization: 'beelinesonarcloud'
+       scannerMode: 'CLI'
+       configMode: 'manual'
+       cliProjectKey: 'beeline-sonarcloud-testing.almiller'
+       cliSources: '.'
     - task: SonarCloudAnalyze@1

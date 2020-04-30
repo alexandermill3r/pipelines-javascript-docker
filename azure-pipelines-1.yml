@@ -58,5 +58,7 @@ stages:
         SonarCloud: 'SonarCloud'
         organization: 'beelinesonarcloud'
         scannerMode: 'CLI'
-        configMode: 'file'
+        configMode: 'manual'
+        cliProjectKey: 'beeline-sonarcloud-testing.almiller'
+        cliSources: '.'
     - task: SonarCloudAnalyze@1

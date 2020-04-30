@@ -50,7 +50,8 @@ stages:
   jobs:  
   - job: Test
     displayName: Test
-    pool: server
+    pool: 
+      vmImage: $(vmImageName)
     steps:
     - task: SonarCloudPrepare@1
       inputs:
